@@ -45,6 +45,7 @@ public class CompanyController {
     public String submitForm(Company company) {
 
         companyService.save(company);
-        return "";
+
+        return "redirect:list";
     }
 }
