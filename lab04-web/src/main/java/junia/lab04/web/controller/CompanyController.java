@@ -23,6 +23,6 @@ public class CompanyController {
 
         modelMap.put("companies", companies);
 
-        return "companyList";
+        return "companiesList";
     }
 }
