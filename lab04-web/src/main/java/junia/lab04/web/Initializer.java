@@ -2,6 +2,7 @@ package junia.lab04.web;
 
 import junia.lab04.core.config.AppConfig;
 import junia.lab04.core.config.DBConfig;
+import junia.lab04.web.config.WebConfig;
 import org.apache.cxf.transport.servlet.CXFServlet;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
